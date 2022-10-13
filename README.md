@@ -2,7 +2,7 @@
 Teste técnico Shopper
 
 # `Link`
-[Clique aqui!](https://folletto-shopper.surge.sh)
+[Clique aqui!](http://ec2-54-84-62-138.compute-1.amazonaws.com:3000)
 
 # `Descrição`
 Este projeto desenvolvido como parte do processo de seleção da empresa Shopper, o qual consiste em um formulário de cadastro de pedidos de supermercado. </br>
@@ -20,8 +20,7 @@ As requisições para a API utilizadas neste projeto foram: </br>
 **[DEL] deletePurchase:** Endpoint utilizado para deletar uma compra cadastrada. </br>
 **[GET] detailPurchase:** Endpoint utilizado para retornar os dados de uma determinada compra cadastrada. </br>
 
-A documentação da API pode ser encontrada [aqui](https://documenter.getpostman.com/view/21552787/2s83zgvRBu). </br>
-O deploy do backend foi feito no Heroku e pode ser encontrado [aqui](https://folletto-shopper.herokuapp.com).
+O deploy do backend foi feito na aws e pode ser encontrado [aqui](http://ec2-54-84-62-138.compute-1.amazonaws.com:3003). </br>
 
 # `Modo de usar`
 A aplicação é composta por cinco página diferentes: apresentação, sobre, produtos, carrinho e histórico:
