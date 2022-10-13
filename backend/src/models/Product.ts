@@ -1,11 +1,3 @@
-export interface IProductDB {
-  id: number,
-  name: string,
-  price: number,
-  qty_stock: number,
-  qty: number
-}
-
 export class Product {
   constructor(
       private id: number,

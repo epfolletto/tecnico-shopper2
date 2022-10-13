@@ -1,6 +1,5 @@
 import { BaseDatabase } from "./BaseDatabase";
-import { IInputProductCartDB, IOutputProductCartDB, IInputUpdateCartDB,
-         IOutputGetAllProductsDB } from "../models/Interfaces";
+import { IInputProductCartDB, IOutputProductCartDB, IInputUpdateCartDB } from "../models/Interfaces";
 import { Product } from "./../models/Product";
 
 export class CartDatabase extends BaseDatabase {

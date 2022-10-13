@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { ProductsBusiness } from "../business/ProductsBusiness";
 import { BaseError } from "../errors/BaseError";
-import { IInputGetAllProductsDTO, IInputUpdateCartDTO } from "../models/Interfaces";
+import { IInputGetAllProductsDTO } from "../models/Interfaces";
 
 export class ProductsController {
   constructor(

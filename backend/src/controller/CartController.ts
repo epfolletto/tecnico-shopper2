@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import { CartBusiness } from "../business/CartBusiness";
-import { ProductsBusiness } from "../business/ProductsBusiness";
 import { BaseError } from "../errors/BaseError";
 import { IInputProductCartDTO, IInputUpdateCartDTO } from "../models/Interfaces";
 

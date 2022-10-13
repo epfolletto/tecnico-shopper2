@@ -74,6 +74,14 @@ export interface IOutputGetAllProductsDB {
 }
 
 // Interfaces do purchasesController
+export interface IItemPurchase {
+  id: number,
+  name: string,
+  price: number,
+  qty: number,
+  qty_stock: number,
+  totalValue: number
+}
 
 export interface IInputPurchaseDTO {
   name_user: string,
@@ -97,44 +105,6 @@ export interface IDetailPurchaseOutputDB {
   total: number
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-export interface IAddProductCartDB {
-  id: number,
-  name: string,
-  price: number,
-  qty: number,
-  qty_stock: number
-}
-
-export interface IItemPurchase {
-  id: number,
-  name: string,
-  price: number,
-  qty: number,
-  qty_stock: number,
-  totalValue: number
-}
-
-
-
-
-
 export interface IPurchaseOutputDB {
   id_purchase: string,
   name_user: string,
@@ -143,8 +113,3 @@ export interface IPurchaseOutputDB {
   num_itens: number,
   total: number
 }
-
-
-
-
-
