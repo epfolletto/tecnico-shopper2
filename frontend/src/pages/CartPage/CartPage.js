@@ -214,9 +214,8 @@ export default function CartPage() {
             <s.DeliveryDate
               value={deliveryDate}
               onChange={onChangeDeliveryDate}
-              placeholder="data"
-              type={"date"}
-              title={"Não podem ser escolhidas datas no passado"}
+              // placeholder="Data"
+              type="date"
             />
             <s.ButtonSaveBuy onClick={addPurchase}>Salvar compra</s.ButtonSaveBuy>
 
