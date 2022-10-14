@@ -8,13 +8,11 @@ Teste técnico Shopper
 Este projeto desenvolvido como parte do processo de seleção da empresa Shopper, o qual consiste em um formulário de cadastro de pedidos de supermercado. </br>
 Neste projeto foram desenvolvidos tanto o fronted quanto backend. </br>
 As requisições para a API utilizadas neste projeto foram: </br>
-**[GET] getAllProducts:** endpoint utilizado para obter todos os produtos cadastrados. </br>
-**[PUT] updateStockProduct:** Endpoint utilizado para atualizar o estoque de determinado produto, quando uma nova compra é realizada. Os dados são passados no body da requisição. </br>
+**[POST] getAllProducts:** endpoint utilizado para obter todos os produtos cadastrados. </br>
 **[POST] addProductCart:** Endpoint utilizado para adicionar um novo produto dentro do carrinho. Os dados são passados no body da requisição. </br>
 **[GET] getCart:** Endpoint utilizado para retornar todos os produtos que estão dentro do carrinho. </br>
 **[PUT] updateCart:** Endpoint utilizado para atualizar os produtos que estão dentro do carrinho, quando uma alteração é salva. Os dados são passados no body da requisição. </br>
 **[DEL] deleteProductCart:** Endpoint utilizado para deletar determinado produto do carrinho, passando o ID deste por path params. </br>
-**[DEL] deleteAllProductsCart:** Endpoint utilizado para esvaziar (deletar todos os produtos) o carrinho de compras. </br>
 **[POST] addNewPurchase:** Endpoint utilizado para cadastrar nova compra. </br>
 **[GET] getAllPurchases:** Endpoint utilizado para retornar todas as compras cadastradas. </br>
 **[DEL] deletePurchase:** Endpoint utilizado para deletar uma compra cadastrada. </br>
