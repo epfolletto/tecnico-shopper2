@@ -74,7 +74,7 @@ export default function CartPage() {
   }
 
   const addPurchase = async () => {
-    if (cartDB.length !== 0) {
+    if (!edit) {
       await axios
         .post(`${BASE_URL}/purchases/add`,
           {
@@ -97,7 +97,7 @@ export default function CartPage() {
           }
         })
     } else {
-      alert("Sua compra não foi salva pois o carrinho está vazio!");
+      alert("Salve o carrinho para continuar!");
     }
   }
 

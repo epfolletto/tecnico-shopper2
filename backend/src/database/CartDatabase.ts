@@ -41,13 +41,23 @@ export class CartDatabase extends BaseDatabase {
     return result
   }
 
+  // public updateCart = async (input: IInputUpdateCartDB): Promise<void> => {
+  //   await BaseDatabase
+  //     .connection.raw(`
+  //       UPDATE ${CartDatabase.TABLE_CART}
+  //       SET qty = ${input.qty}, totalValue = ${input.totalValue}
+  //       WHERE (id = ${input.id})
+  //     `)
+  // }
+
   public updateCart = async (input: IInputUpdateCartDB): Promise<void> => {
     await BaseDatabase
-      .connection.raw(`
-        UPDATE ${CartDatabase.TABLE_CART}
-        SET qty = ${input.qty}, totalValue = ${input.totalValue}
-        WHERE (id = ${input.id})
-      `)
+      .connection(CartDatabase.TABLE_CART)
+      .update({
+        qty: input.qty, 
+        totalValue: input.totalValue
+      })
+      .where({id: input.id})
   }
 
   public deleteProductCart = async (id: number): Promise<void> => {
