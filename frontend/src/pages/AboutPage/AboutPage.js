@@ -24,11 +24,11 @@ export default function About(props) {
           </Text>
 
           <Text>
-            Foram desenvolvidos tanto o frontend quanto backend.
+            Foram desenvolvidos tanto o frontend quanto backend. O projeto foi hospedado na aws,
             <br />
-            <b>Frontend:</b> foram utilizados HTML, JavaScript, Styled-Components e paradigma funcional. O deploy foi feito utilizando o Surge.
+            <b>Frontend:</b> foram utilizados HTML, JavaScript, Styled-Components e paradigma funcional.
             <br />
-            <b>Backend:</b> foram utilizados TypeScript, MySQL, Express, Knex (usando query raw e query builder), paradigma de orientação a objetos e conceito de APIs REST. O deply foi feito utilizando o Heroku.
+            <b>Backend:</b> foram utilizados TypeScript, MySQL, Express, Knex (usando query raw e query builder), paradigma de orientação a objetos e conceito de APIs REST.
           </Text>
         </s.Texts>
 
