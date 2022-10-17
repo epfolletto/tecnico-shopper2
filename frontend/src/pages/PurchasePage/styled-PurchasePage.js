@@ -7,6 +7,9 @@ export const Grid = styled.div`
   grid-template-rows: 60px 1fr 60px;
   box-sizing: border-box;
   background-color: white;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    grid-template-rows: 60px 1fr 140px;
+  }
 `
 
 export const LineHeader = styled.div`
@@ -17,6 +20,9 @@ export const Main = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #dcece6;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    flex-direction: column;
+  }
 `
 
 export const LeftBox = styled.div`
@@ -30,6 +36,10 @@ export const LeftBox = styled.div`
   width: 35%;
   border-radius: 15px;
   background-color: #8AF2CC;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    width: 100%;
+    margin: 5px 0;
+  }
 `
 
 export const RightBox = styled.div`
@@ -43,6 +53,10 @@ export const RightBox = styled.div`
   width: 35%;
   border-radius: 15px;
   background-color: #b1b1b1;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    width: 100%;
+    margin: 0 0 5px 0;
+  }
 `
 
 export const RightBoxUp = styled.div`
@@ -53,6 +67,9 @@ export const RightBoxUp = styled.div`
   height: 80%;
   width: 100%;
   overflow: auto;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    overflow-x: hidden;
+  }
 `
 
 export const RightBoxDown = styled.div`
@@ -101,6 +118,9 @@ export const PurchaseInfo = styled.div`
   border-radius: 10px;
   margin: 5px 0;
   background-color: ${props => props.status === true && props.value === props.id ? "orange" : "#6DBFA1"};
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    width: 100%;
+  }
 `
 
 export const PurchaseName = styled.div`
@@ -110,6 +130,9 @@ export const PurchaseName = styled.div`
   overflow-wrap: break-word;
   word-wrap: break-word;
   word-break: break-word;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    flex: 1 0 20%;
+  }
 `
 
 export const PurchaseDate = styled.div`
@@ -216,6 +239,9 @@ export const PurchaseName2 = styled.div`
   font-weight: bold;
   padding: 5px;
   flex-basis: 30%;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    flex: 1 0 20%;
+  }
 `
 
 export const PurchaseDate2 = styled.div`

@@ -26,6 +26,12 @@ export const ButtonPage = styled.button`
     opacity: 0.8;
     background: lightgray;
   };
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    font-size: 12px;
+    width: 20px;
+    height: 30px;
+    margin: 3px;
+  }
 `
 
 export const ButtonPrevious = styled.button`
@@ -44,6 +50,12 @@ export const ButtonPrevious = styled.button`
     opacity: 0.8;
     background: lightgray;
   };
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    font-size: 12px;
+    width: 50px;
+    height: 30px;
+    margin: 5px 10px 5px 0;
+  }
 `
 
 export const ButtonLast = styled.button`
@@ -62,4 +74,10 @@ export const ButtonLast = styled.button`
     opacity: 0.8;
     background: lightgray;
   };
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    font-size: 12px;
+    width: 50px;
+    height: 30px;
+    margin: 5px 0 5px 10px;
+  }
 `

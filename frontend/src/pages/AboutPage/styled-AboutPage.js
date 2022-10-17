@@ -37,6 +37,9 @@ export const Text = styled.div`
   text-align: justify;
   margin: 0 10px 10px 10px;
   word-wrap: break-word;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    font-size: 16px;
+  }
 `
 
 export const ButtonBack = styled.button`

@@ -6,7 +6,11 @@ export const Grid = styled.div`
   display: grid;
   grid-template-rows: 60px 1fr 60px;
   box-sizing: border-box;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    grid-template-rows: 60px 1fr 140px;
+  }
 `
+
 
 export const LineHeader = styled.div`
 `
@@ -24,6 +28,9 @@ export const MainLeft = styled.div`
   width: 12%;
   height: 100%;
   background-color: #575780;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    width: 30%;
+  }
 `
 
 export const Filter = styled.div`

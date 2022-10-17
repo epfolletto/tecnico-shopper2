@@ -9,16 +9,25 @@ export const Footer = styled.div`
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   background-color: #fffafa;
   box-sizing: border-box;
-  width: 100%;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    flex-direction: column;
+  }
 `
 
 export const Left = styled.p`
   margin: 0 0 0 20px;
   font-size: 16px;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    margin: 5px 0 0 0;
+  }
 `
 
 export const Center = styled.p`
   font-size: 16px;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    text-align: center;
+    margin: 5px 0;
+  }
 `
 
 export const Right = styled.div`

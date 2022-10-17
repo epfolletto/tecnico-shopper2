@@ -7,6 +7,9 @@ export const Grid = styled.div`
   grid-template-rows: 60px 1fr 60px;
   background-color: white;
   overflow-x: hidden;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    grid-template-rows: 60px 1fr 140px;
+  }
 `
 
 export const LineHeader = styled.div`
@@ -27,6 +30,9 @@ export const CenterBox = styled.div`
   align-items: center;
   height: 95%;
   width: 35%;
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    width: 95%;
+  }
 `
 
 export const BoxListTop = styled.div`
