@@ -24,7 +24,7 @@ export default function About(props) {
           </Text>
 
           <Text>
-            Foram desenvolvidos tanto o frontend quanto backend. O projeto foi hospedado na aws,
+            Foram desenvolvidos tanto o frontend quanto backend. O projeto foi hospedado na aws.
             <br />
             <b>Frontend:</b> foram utilizados HTML, JavaScript, Styled-Components e paradigma funcional.
             <br />
